@@ -1,0 +1,101 @@
+#Sum and Difference
+a=int(input("enter first number:"))
+b=int(input("enter second number:"))
+sum=a+b
+diff=a-b
+print("sum  of two numbers is:",sum)
+print("difference of two numbers is:",diff)
+
+#Product and Division
+a=int(input("enter first number:"))
+b=int(input("enter second number:"))
+product=a*b
+quotient=a//b
+remainder=a%b
+print(product)
+print(quotient)
+print(remainder)
+
+#Swapping of two numbers
+a=int(input("enter first number:"))
+b=int(input("enter second number:"))
+c=a
+a=b
+b=c
+print(a)
+print(b)
+
+#Swapping without third variable
+a=int(input("enter first number:"))
+b=int(input("enter second number:"))
+a=a+b
+b=a-b
+a=a-b
+print(a)
+print(b)
+
+#Average Calculation
+a=float(input("enter first student marks:"))
+b=float(input("enter second student marks:"))
+c=float(input("enter third student marks:"))
+d=float(input("enter fourth student marks:"))
+e=float(input("enter fifth student marks:"))
+sum=a+b+c+d+e
+avg=sum/5
+solution="{:.2F}".format(avg)
+print(solution)
+
+#Alice in Wonderland
+a=int(input())
+s=(a//10)+(a%10)
+print(s)
+
+#Area Calculation
+a=int(input("enter side of square:"))
+b=int(input("enter length of rectangle:"))
+c=int(input("enter breadth of rectangle:"))
+d=float(input("enter radius of circle:"))
+s=a*a
+r=b*c
+g=3.14*d*d
+print(s)
+print(r)
+m="{:.2F}".format(g)
+print(m)
+
+#Fencing the ground
+a=int(input())
+b=int(input())
+p=2*(a+b)
+area=a*b
+print("Required length is",p,"m")
+print("Required quantity of carpet is",area,"sqm")
+
+#Power of a Number
+a=int(input())
+b=int(input())
+c=pow(a,b)
+print(c)
+
+#Simple Interestp=int(input())
+t=int(input())
+r=float(input())
+s=(p*t*r)/100
+print("%.2f"%s)
+
+#Splitting into Teams
+a=int(input("no.of stundents:"))
+b=int(input("no.of teams:"))
+s=a//b
+r=a%b
+print("The number of students in each team is",s,"and left out is",r)
+
+#Three Idiots
+x1=float(input())
+y1=float(input())
+x2=float(input())
+y2=float(input())
+x=((x1+x2)/2,(y1+y2)/2)
+print("Binoy's house is located at ",x)
+
+
