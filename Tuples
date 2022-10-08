@@ -1,0 +1,33 @@
+#Add an item
+a=(4,6,2,8,3,1)
+print(a)
+b=9,
+c=a+b
+print(c)
+d=c[:5]+(15,20,25)+c[:5]
+print(d)
+l=list(d)
+l.append(30)
+t=tuple(l)
+print(t)
+
+#Length of a tuple
+t=input()
+r=tuple(t)
+print(r)
+s=len(r)
+print(s)
+
+#Reverse a tuple
+t=input()
+r=tuple(t)
+print(r)
+s=len(r)
+print(s)
+
+#Repeated element in a tuple
+t=input()
+r=tuple(t)
+print(r)
+s=len(r)
+print(s)
