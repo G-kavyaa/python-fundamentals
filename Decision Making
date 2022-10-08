@@ -193,5 +193,3 @@ elif n>3:
 else:
     print("Invalid Input")
  
- #Amoeba Multiplication
- 
